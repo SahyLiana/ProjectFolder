@@ -1,0 +1,98 @@
+.home-container {
+  padding: 20px;
+  .card-header {
+    display: flex;
+    gap: 15px;
+  }
+
+  .graph {
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 450px;
+    align-items: center;
+    .graph-container {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      display: flex;
+
+      .pie-chart {
+        // height: 450px;
+        // height: 100px;
+        flex: 1;
+      }
+      .bar-chart {
+        // height: 450px;
+        height: 100px;
+        flex: 1;
+      }
+      p {
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .order-container {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    max-width: 1400px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    h2 {
+      margin: 0px 0px 10px 0px;
+      padding: 0px;
+      a {
+        color: royalblue;
+        text-decoration: none;
+      }
+    }
+    table {
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      tr {
+        border-bottom: 1px solid gainsboro;
+        td,
+        th {
+          padding: 14px 0;
+        }
+
+        .Pending {
+          background-color: rgba(245, 169, 28, 0.4);
+          padding: 3px 5px;
+          color: gray;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+
+        .Delivered {
+          background-color: rgba(88, 252, 105, 0.4);
+          padding: 3px 5px;
+          color: gray;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+      }
+      .actionCol {
+        position: relative;
+        a {
+          text-decoration: none;
+        }
+        span {
+          cursor: pointer;
+          color: gray;
+          display: block;
+          // background-color: gainsboro;
+          width: fit-content;
+          padding: 0;
+          margin: 0;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

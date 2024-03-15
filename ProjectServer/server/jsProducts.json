@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Iphone 13",
+    "price": 999,
+    "oldPrice": 1200,
+    "quantity": 10,
+    "featured": true,
+    "category": "Phones",
+    "image": "https://appleshopuganda.com/wp-content/uploads/2021/07/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large_.jpg",
+    "description": "Test description"
+  },
+  {
+    "name": "Macbook Air",
+    "price": 1999,
+    "oldPrice": 2400,
+    "quantity": 5,
+    "featured": true,
+    "category": "Computers",
+    "image": "https://img.freepik.com/free-photo/laptop-blank-screen-digital-device_53876-97311.jpg?w=900&t=st=1689722559~exp=1689723159~hmac=14a8447aa63eb33df57694d7911bf00dded36a93b4eeeb923eafbc22dbb5c1a6",
+    "description": "Test description"
+  },
+  {
+    "name": "ThinkPad",
+    "price": 1100,
+    "oldPrice": 1900,
+    "quantity": 5,
+    "featured": true,
+    "category": "Computers",
+    "image": "https://img.freepik.com/premium-photo/modern-touchscreen-laptops-with-rotating-display-isolated_241146-1788.jpg?w=826",
+    "description": "Test description"
+  },
+  {
+    "name": "Mouse",
+    "price": 99,
+    "oldPrice": null,
+    "quantity": 14,
+    "featured": false,
+    "category": "Others",
+    "image": "https://img.freepik.com/free-psd/wireless-computer-gaming-mouse-icon-isolated-3d-render-illustration_47987-6613.jpg?w=740&t=st=1689722837~exp=1689723437~hmac=a89c96283c6605bd2d19dbfb677201d8a3dcfb225fa11f2feefb6fdbe0efd0ef",
+    "description": "Test description"
+  },
+  {
+    "name": "Samsung",
+    "price": 700,
+    "oldPrice": 999,
+    "quantity": 10,
+    "featured": true,
+    "category": "Phones",
+    "image": "https://img.freepik.com/free-psd/smartphone-mockup_1310-812.jpg?w=996&t=st=1689722710~exp=1689723310~hmac=e22b0deb2a3ccb326e2ff9a963d2c4747e5f48bc9d593dcc2764c115f0d516e6",
+    "description": "Test description"
+  },
+  {
+    "name": "Dell",
+    "price": 1999,
+    "oldPrice": 2400,
+    "quantity": 5,
+    "featured": true,
+    "category": "Computers",
+    "image": "https://img.freepik.com/free-photo/electronic-device-balancing-concept_23-2150422322.jpg?w=900&t=st=1689722945~exp=1689723545~hmac=6cbde46eb85eb6dfe7b9f072886c6d4ee85f6485e47faa3f1f2ccc67e51f4978",
+    "description": "Test description"
+  },
+  {
+    "name": "Huawei",
+    "price": 600,
+    "oldPrice": 1400,
+    "quantity": 10,
+    "featured": true,
+    "category": "Phones",
+    "image": "https://img.freepik.com/free-vector/triple-camera-black-smartphone-concept-mockup_1017-19784.jpg?w=996&t=st=1689723227~exp=1689723827~hmac=b53f1423f7b1efeb142f32506d0cebccc1236dce23d38729b008c91b6fe198a2",
+    "description": "Test description"
+  },
+  {
+    "name": "Mouse",
+    "price": 30,
+    "oldPrice": null,
+    "quantity": 14,
+    "featured": false,
+    "category": "Others",
+    "image": "https://img.freepik.com/free-photo/white-wireless-optical-mouse-digital-device_53876-96814.jpg?w=996&t=st=1689723048~exp=1689723648~hmac=608d1388f986c993007fbe48952cb13642b224f43f507f4a2e8fc7ee2eb3392e",
+    "description": "Test description"
+  },
+  {
+    "name": "Xiaomi",
+    "price": 899,
+    "oldPrice": null,
+    "quantity": 14,
+    "featured": false,
+    "category": "Phones",
+    "image": "https://img.freepik.com/free-photo/new-cell-phone-colorful-background_58702-4823.jpg?w=996&t=st=1689723339~exp=1689723939~hmac=e6e12f07edb56bb9b7f9f5318e4dfb6a05e32d37e8d3da19bc8cb51a3d8e85ee",
+    "description": "Test description"
+  }
+]

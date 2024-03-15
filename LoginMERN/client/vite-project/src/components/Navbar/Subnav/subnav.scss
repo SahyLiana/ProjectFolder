@@ -1,0 +1,25 @@
+.subnav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px gainsboro solid;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.4);
+  button {
+    border: none;
+    padding: 8px 15px;
+    background-color: red;
+    font-size: 23px;
+    color: white;
+
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+      border-radius: 18px;
+      background-color: rgb(232, 6, 6);
+    }
+  }
+}

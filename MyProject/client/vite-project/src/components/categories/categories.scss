@@ -1,0 +1,45 @@
+.categories {
+  height: 100vh;
+  box-sizing: border-box;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  padding-top: 20px;
+  @media (max-width: "600px") {
+    height: auto;
+  }
+
+  p {
+    color: gray;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 50px;
+    margin: 0 40px 20px 0;
+    @media (max-width: "600px") {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  a {
+    text-decoration: none;
+    // display: block;
+  }
+
+  .down-line {
+    height: 1px;
+    width: 150px;
+    background-color: orange;
+    margin-bottom: 35px;
+  }
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

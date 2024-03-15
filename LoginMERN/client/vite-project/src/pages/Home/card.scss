@@ -1,0 +1,40 @@
+.card-container {
+  background-color: white;
+  flex: 1;
+  padding: 50px 20px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  &.Earnings {
+    background-color: orange;
+  }
+
+  &.Products {
+    background-color: green;
+  }
+
+  &.Orders {
+    background-color: blue;
+  }
+  h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+  }
+  div {
+    h3 {
+      padding: 0;
+      color: gainsboro;
+      font-size: 15px;
+      margin: 0;
+    }
+    h2 {
+      padding: 0;
+      margin: 0;
+      font-weight: 100;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.body-background {
+  background-color: rgb(221, 220, 220);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .myForm {
+    background-color: white;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+
+    .left-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //   width: 500px;
+      border-radius: 20px 0 0 20px;
+      flex: 1;
+      //   height: 500px;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      h1 {
+        color: white;
+        font-family: "Brush Script MT", cursive;
+        font-style: italic;
+      }
+    }
+    .right-content {
+      //   box-sizing: border-box;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      //   justify-content: center;
+      .form-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+        // h1 {
+        //   font-family: "'Brush Script MT', cursive";
+        // }
+        input {
+          padding: 10px;
+          border-radius: 5px;
+          border: none;
+          background-color: gainsboro;
+          font-size: 15px;
+        }
+
+        .btn {
+          margin-top: 15px;
+          background-color: royalblue;
+          border: none;
+          cursor: pointer;
+          padding: 8px;
+          color: white;
+          font-weight: bold;
+          border-radius: 20px;
+          font-size: 18px;
+          transition: all 0.6s;
+          &:hover {
+            background-color: rgb(5, 5, 130);
+          }
+          &.loading {
+            background-color: gray;
+            cursor: not-allowed;
+          }
+        }
+
+        .forget-btn {
+          text-decoration: none;
+          color: royalblue;
+          text-align: right;
+          margin-top: 10px;
+          background-color: transparent;
+          border: none;
+          font-weight: bold;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

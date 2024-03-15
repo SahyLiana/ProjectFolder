@@ -1,0 +1,10 @@
+PRODUCTS
+-id:
+-name(String):
+-price(Number):
+-oldPrice(Number):
+-quantity(Number):
+-featured(boolean):
+-type(String):
+-image(String):
+-description(String):

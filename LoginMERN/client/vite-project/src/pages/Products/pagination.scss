@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+
+  //   max-width: 1200px;
+  //   margin: 0 auto;
+
+  button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .active {
+    background-color: blue;
+    color: white;
+  }
+}

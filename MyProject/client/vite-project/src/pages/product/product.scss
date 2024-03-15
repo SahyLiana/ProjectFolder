@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  overflow: hidden;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 40px auto;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+  //   background-color: aliceblue;
+
+  .product-image {
+    flex: 1;
+    max-width: 50%;
+    @media (max-width: 600px) {
+      max-width: 100%;
+    }
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .product-content {
+    flex: 1;
+    max-width: 50%;
+    @media (max-width: 600px) {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+
+    .product-header {
+      color: gray;
+    }
+    .product-category {
+      font-size: 24px;
+      @media (max-width: 600px) {
+        font-size: 17px;
+      }
+    }
+    .product-name {
+      color: royalblue;
+      font-size: 40px;
+      @media (max-width: 600px) {
+        font-size: 25px;
+      }
+    }
+    .product-price {
+      color: gray;
+      font-size: 17px;
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+      .price {
+        color: black;
+        font-size: 30px;
+        @media (max-width: 600px) {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .myForm {
+      display: flex;
+      gap: 20px;
+      width: 50%;
+      padding-bottom: 20px;
+      border-bottom: 1px solid gainsboro;
+
+      input {
+        width: 30px;
+        font-size: 20px;
+        padding: 4px 5px;
+
+        @media (max-width: 600px) {
+          font-size: 15px;
+          padding: 2px 3px;
+        }
+      }
+      .button {
+        background-color: royalblue;
+        color: white;
+        border: none;
+        width: 300px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 15px;
+        @media (max-width: 600px) {
+          font-size: 12px;
+        }
+        &:hover {
+          background-color: blue;
+        }
+        &.disabled {
+          background-color: red;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.cart {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  gap: 10px;
+  //   justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  img {
+    width: 120px;
+  }
+  .content {
+    margin-right: auto;
+
+    h2 {
+      margin: 0;
+    }
+    p {
+      margin-top: 5px;
+      color: gray;
+    }
+    span {
+      color: blue;
+      font-size: 18px;
+    }
+  }
+  #remove {
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s;
+    &:hover {
+      background-color: rgb(225, 19, 19);
+    }
+  }
+}

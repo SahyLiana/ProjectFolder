@@ -1,0 +1,43 @@
+.settings-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+
+  h1 {
+    color: royalblue;
+  }
+
+  label {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 20px;
+  }
+
+  input {
+    margin: 10px 0;
+    padding: 8px 5px;
+    width: 300px;
+    border: 0.5px gainsboro solid;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .save {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    &.load {
+      background-color: gray;
+      cursor: not-allowed;
+    }
+    &:hover {
+      border-radius: 5px;
+    }
+  }
+}

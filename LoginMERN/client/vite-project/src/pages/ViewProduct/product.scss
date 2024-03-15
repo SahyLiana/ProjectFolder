@@ -1,0 +1,86 @@
+.view-product {
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+  h1 {
+    color: royalblue;
+  }
+  .container-view {
+    display: flex;
+    gap: 25px;
+    .product-img {
+      max-width: 50%;
+    }
+
+    .container-content {
+      max-width: 50%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+
+      h1 {
+        font-size: 40px;
+        color: black;
+        margin-bottom: 10px;
+      }
+
+      .price-details {
+        color: royalblue;
+        font-size: 20px;
+        font-weight: bold;
+        .old-price {
+          color: rgba(65, 105, 225, 0.4);
+          text-decoration: line-through;
+          font-weight: 100;
+        }
+      }
+
+      .stock-details {
+        color: gray;
+        .stock-out {
+          color: red;
+          font-weight: bold;
+        }
+      }
+
+      h2 {
+        color: blue;
+        margin-bottom: 10px;
+      }
+
+      .description {
+        font-size: 18px;
+      }
+
+      .product-id {
+        color: gray;
+      }
+
+      .category {
+        font-size: 20px;
+        a {
+          //   text-decoration: none;
+          color: blue;
+        }
+      }
+    }
+  }
+
+  .btn-back {
+    margin-top: 10px;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: all 0.5s;
+
+    &:hover {
+      border-radius: 10px;
+    }
+  }
+}

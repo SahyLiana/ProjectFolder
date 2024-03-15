@@ -1,0 +1,69 @@
+.card {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  border: 0.5px gainsboro solid;
+  a {
+    text-decoration: none;
+  }
+  .card-image {
+    width: 100%;
+    height: 180px;
+  }
+  .stock {
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    top: 0;
+    left: 5%;
+    padding: 5px 10px;
+    background-color: red;
+  }
+  .name {
+    font-weight: 100;
+    margin-bottom: 0;
+    color: black;
+  }
+
+  .price {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+    .oldPrice {
+      font-size: 10px;
+      color: gray;
+      text-decoration: line-through;
+    }
+  }
+  .product-footer {
+    display: flex;
+    width: 100%;
+    gap: 3px;
+    .btn {
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+      flex: 1;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+      border-radius: 5px;
+      border: 0.5px solid gainsboro;
+      transition: all 0.5s;
+      &.delete {
+        background-color: white;
+        color: red;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}

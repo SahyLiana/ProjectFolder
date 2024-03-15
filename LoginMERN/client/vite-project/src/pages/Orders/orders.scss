@@ -1,0 +1,88 @@
+.orders-container {
+  background-color: white;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+
+  .orders-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+      margin-left: auto;
+      padding: 10px 4px;
+      font-size: 15px;
+      border: 0.5px solid gainsboro;
+      margin-right: 10px;
+      width: 450px;
+      &:focus {
+        outline: none;
+      }
+    }
+    select {
+      padding: 10px 4px;
+      border: 0.5px gainsboro solid;
+      font-size: 15px;
+    }
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-bottom: 20px;
+    thead {
+      border-bottom: 0.5px solid gainsboro;
+
+      tr {
+        th {
+          padding: 10px 0;
+          //   color: gray;
+        }
+      }
+    }
+    tbody {
+      tr {
+        border-bottom: 0.5px solid gainsboro;
+        .Pending {
+          background-color: rgba(245, 169, 28, 0.4);
+          padding: 3px 5px;
+          color: gray;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+        .Delivered {
+          background-color: rgba(88, 252, 105, 0.4);
+          padding: 3px 5px;
+          color: gray;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+        .Cancelled {
+          background-color: rgba(179, 37, 169, 0.4);
+          padding: 3px 5px;
+          color: gray;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+        td {
+          padding: 10px 0;
+          a {
+            text-decoration: none;
+            color: gray;
+            border: 0.5px solid gainsboro;
+            display: block;
+            text-align: center;
+            border-radius: 8px;
+            padding: 3px;
+            width: 50%;
+            background-color: aliceblue;
+          }
+        }
+      }
+    }
+  }
+}

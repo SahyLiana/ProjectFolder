@@ -1,0 +1,73 @@
+.nav-container {
+  //   position: fixed;
+  // width: 30%;
+  //   height: 100%;
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  // position: sticky;
+  flex-direction: column;
+  // height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-right: 0.5px gainsboro solid;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.4);
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: "Brush Script MT", cursive;
+  }
+  h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: royalblue;
+    font-size: 25px;
+  }
+
+  hr {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  a {
+    display: flex;
+    margin-bottom: 19px;
+    gap: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    // background-color: rgba(9, 126, 251, 0.2);
+    padding: 7px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    .icons {
+      color: gray;
+    }
+  }
+
+  span {
+    display: flex;
+    cursor: pointer;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 19px;
+    margin-left: 4px;
+    font-size: 17px;
+  }
+
+  .product-nav {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin-left: 15px;
+    a {
+      color: gray;
+      font-weight: lighter;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+  }
+}

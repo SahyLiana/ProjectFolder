@@ -1,0 +1,39 @@
+.search-container-page {
+  max-width: 1400px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    text-align: center;
+    color: royalblue;
+  }
+  input {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 8px 5px;
+    border: 0.5px gray solid;
+    border-radius: 5px;
+    width: 50%;
+    &:focus {
+      border: none;
+      outline: orange 0.5px solid;
+    }
+  }
+
+  .submit {
+    width: fit-content;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 10px;
+    border: none;
+    transition: all 0.6s;
+    cursor: pointer;
+    &:hover {
+      border-radius: 8px;
+    }
+  }
+}
